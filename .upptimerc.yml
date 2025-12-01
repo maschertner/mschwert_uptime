@@ -10,6 +10,10 @@ sites:
     headers:
       - "CF-Access-Client-Id: ${{ secrets.CF_ACCESS_CLIENT_ID }}"
       - "CF-Access-Client-Secret: ${{ secrets.CF_ACCESS_CLIENT_SECRET }}"
+  - name: ByteStash
+    url: https://code.mschwert.us
+  - name: HomeBox
+    url: https://homebox.mschwert.us
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
