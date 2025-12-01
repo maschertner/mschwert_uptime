@@ -8,8 +8,8 @@ sites:
   - name: LubeLogger
     url: https://cars.mschwert.us
     headers:
-      CF-Access-Client-Id: ${{ secrets.CF_ACCESS_CLIENT_ID }}
-      CF-Access-Client-Secret: ${{ secrets.CF_ACCESS_CLIENT_SECRET }}
+      - "CF-Access-Client-Id: ${{ secrets.CF_ACCESS_CLIENT_ID }}"
+      - "CF-Access-Client-Secret: ${{ secrets.CF_ACCESS_CLIENT_SECRET }}"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
