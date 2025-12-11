@@ -7,6 +7,10 @@ sites:
     url: https://budget.mschwert.us
   - name: LubeLogger
     url: https://cars.mschwert.us
+    icon: https://cdn.jsdelivr.net/gh/selfhst/icons@main/png/lubelogger.png
+    headers:
+      - "CF-Access-Client-Id: ${{ secrets.CF_ACCESS_CLIENT_ID }}"
+      - "CF-Access-Client-Secret: ${{ secrets.CF_ACCESS_CLIENT_SECRET }}"
   - name: ByteStash
     url: https://code.mschwert.us
   - name: HomeBox
